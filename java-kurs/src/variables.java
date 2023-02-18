@@ -29,6 +29,6 @@ public class variables {
     System.out.println("Fazit: " + "b = " + b );
     System.out.println("Fazit: " + "c = " + c );
     System.out.println("Fazit: " + "d = " + d );
-}
+    }
 
 }

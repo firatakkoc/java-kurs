@@ -1,0 +1,23 @@
+
+# Javada dosya adi ile 'class' adinin ayni olmasi gerekmektedir.
+
+# System.out.println [ sout ] ile kisaltarak kullanabiliyoruz.
+
+# Variable olustururken mutlaka türünü belirtmemiz gerekmektedir.
+
+    public static void main(String[] args) {
+        // Variable example 
+        int a = 3;
+        int b = 4;
+        int c = 5;
+
+        int toplam = a + 2* b + c; 
+        System.out.println("Toplam = " + toplam);
+    }
+
+# yorum satiri kullanma
+        // Variable example 
+        /*
+        This is for a long command line
+         */
+

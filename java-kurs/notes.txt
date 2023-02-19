@@ -21,3 +21,34 @@
         This is for a long command line
          */
 
+ /* int age = 25; // Bir tamsayı (integer) değişkeni
+    double salary = 5000.0; // Bir ondalık sayı (double) değişkeni
+    String name = "John Doe"; // Bir metin (string) değişkeni
+    boolean isEmployed = true; // Bir boolean (mantıksal) değişkeni
+    char grade = 'A'; // Bir karakter (char) değişkeni
+    float temperature = 20.5f; // Bir kayan noktalı sayı (float) değişkeni
+    short num = 100; // Bir kısa tamsayı (short) değişkeni
+    long distance = 100000L; // Bir uzun tamsayı (long) değişkeni
+    byte ageOfChild = 7; // Bir byte değişkeni
+    double pi = Math.PI; // Bir sabit değişken (Math.PI sabitini kullandık)
+*/
+
+/* Double ve float arasindaki farklar ve benzerliklefa-rotate-180
+    Hassasiyet: Double, float'tan daha yüksek bir hassasiyete sahiptir. Double, daha fazla sayıda ondalık basamağı depolayabilir ve daha doğru sonuçlar verir. Float, daha az sayıda ondalık basamağı depolayabilir ve bu nedenle daha az hassas sonuçlar verir.
+
+    Bellek kullanımı: Double, float'tan daha fazla bellek kullanır. Double veri tipi, 8 bayt bellek kullanırken, float veri tipi 4 bayt bellek kullanır. Bu nedenle, double veri tipi daha fazla bellek tüketir.
+
+    Hız: Float veri tipi, double veri tipine göre daha hızlıdır. Float veri tipi, daha az bellek kullanır ve daha az hassas sonuçlar verirken daha hızlı işlemler gerçekleştirir. Bu nedenle, float veri tipi, bellek kullanımı önemliyse veya yeterince hassas sonuçlar gerekmeyen uygulamalarda tercih edilebilir.
+
+    Özetle, double ve float veri tipleri arasındaki ana fark, hassasiyet, bellek kullanımı ve hızdır. Double, daha hassas sonuçlar sağlar ancak daha fazla bellek kullanır ve daha yavaştır. Float, daha az hassas sonuçlar verir, daha az bellek kullanır ve daha hızlıdır.
+
+    Double ve float veri tiplerinin ortak yanları şunlardır:
+
+    Sayısal verileri temsil etmek için kullanılırlar.
+    İşaretli (pozitif veya negatif) ve kesirli sayıları temsil etmek için kullanılırlar.
+    Her ikisi de Java'nın temel veri tiplerindendir.
+    Her ikisi de IEEE 754 standardını takip eder ve virgülden sonraki sayıları ondalık olarak temsil eder.
+    Her ikisi de aritmetik işlemlerde kullanılabilirler. Toplama, çıkarma, çarpma ve bölme gibi matematiksel işlemleri gerçekleştirebilirler.
+    Her iki veri tipi de varsayılan değerleri vardır. Double varsayılan olarak 0.0, float ise 0.0f olarak tanımlanır.
+    Özetle, double ve float veri tipleri sayısal verileri temsil etmek için kullanılır, IEEE 754 standardını takip ederler ve matematiksel işlemlerde kullanılabilirler.
+*/

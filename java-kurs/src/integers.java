@@ -1,31 +1,35 @@
-import java.util.*; 
 public class integers {
     public static void main(String[] args) {
 
-        // byte --> short --> int --> long
+    // byte --> short --> int --> long
 
         int wertA = 4;
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Integer.MIN_VALUE);
+        System.out.println(wertA + " is of type = " + ((Object)wertA).getClass().getSimpleName());
+
 
         byte wertB = 100;
         System.out.println(Byte.MAX_VALUE);
         System.out.println(Byte.MIN_VALUE);
+        System.out.println(wertB + " is of type = " + ((Object)wertB).getClass().getSimpleName());
         
         short wertC = 200;
         System.out.println(Short.MAX_VALUE);
         System.out.println(Short.MIN_VALUE);
+        System.out.println(wertC + " is of type = " + ((Object)wertC).getClass().getSimpleName());
         
         long wertD = 110;
         System.out.println(Long.MAX_VALUE);
         System.out.println(Long.MIN_VALUE);
+        System.out.println(wertD + " is of type = " + ((Object)wertD).getClass().getSimpleName());
 
         // dönüstürme
 
         // short veri tipinden int veri tipine dönsütürme
         short wertj = 1000;
         int werti = (wertj / 2);
-        int wertk = wertj;
+        int wertk = werti;
         System.out.println(wertk + " is of type = " + ((Object)wertk).getClass().getSimpleName());
 
         // byte

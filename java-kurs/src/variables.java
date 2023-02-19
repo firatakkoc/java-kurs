@@ -20,15 +20,15 @@ public class variables {
     d. 5 + 15 / 3 * 2 - 8 % 3
     */
 
-    int a = -5 + 8 * 6;
-    int b = (55+9) % 9;
-    int c = 20 + -3*5 / 8;
-    int d = 5 + 15 / 3 * 2 - 8 % 3;
+    int zahla = -5 + 8 * 6;
+    int zahlb = (55+9) % 9;
+    int zahlc = 20 + -3*5 / 8;
+    int zahld = 5 + 15 / 3 * 2 - 8 % 3;
 
-    System.out.println("Fazit: " + "a = " + a );
-    System.out.println("Fazit: " + "b = " + b );
-    System.out.println("Fazit: " + "c = " + c );
-    System.out.println("Fazit: " + "d = " + d );
+    System.out.println("Fazit: " + "a = " + zahla );
+    System.out.println("Fazit: " + "b = " + zahlb );
+    System.out.println("Fazit: " + "c = " + zahlc );
+    System.out.println("Fazit: " + "d = " + zahld );
     }
 
 }

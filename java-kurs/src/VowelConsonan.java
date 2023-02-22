@@ -19,5 +19,7 @@ public class VowelConsonan {
             default:
                 System.out.println(ch + " is consonant");
         }
-    }
+        reader.close();
+    }   
+
 }

@@ -44,3 +44,5 @@ public class conditionalSituations2 {
         
     }
 }
+
+// eger else if yaptiklarimiz hepsi if olsaydi, bir note girdigimizde bütün if lerdeki sonucalari yazdiracakti. if kosulu saglaniyorsa her sekilde sonucu yazdirir. 

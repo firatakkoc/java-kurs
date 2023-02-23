@@ -52,3 +52,51 @@
     Her iki veri tipi de varsayılan değerleri vardır. Double varsayılan olarak 0.0, float ise 0.0f olarak tanımlanır.
     Özetle, double ve float veri tipleri sayısal verileri temsil etmek için kullanılır, IEEE 754 standardını takip ederler ve matematiksel işlemlerde kullanılabilirler.
 */
+
+# for
+/* for döngüsü, belirli bir aralıkta veya bir koleksiyonun elemanlarında gezinmek için kullanılır. Genellikle, döngüde kaç kez tekrarlanacağı bilinen durumlarda kullanılır. for döngüsünde, döngü değişkeni tanımlanır ve koşul sağlandığı sürece arttırılır veya azaltılır. */
+
+    for (int i = 0; i < 10; i++) {
+        System.out.println(i);
+    }
+
+# while
+/* while döngüsü, koşulun doğru olduğu sürece döngüyü tekrarlar. Bu döngü yapısı, koşulun döngüden önce veya sonra tanımlanabileceği durumlar için kullanılabilir. while döngüsünde, döngü değişkeni tanımlanmaz ve koşul döngüden önce veya sonra kontrol edilir. */
+
+    int i = 0;
+    while (i < 10) {
+        System.out.println(i);
+        i++;
+    }
+
+Özetle, for döngüsü belirli bir aralıkta veya bir koleksiyonun elemanları üzerinde gezinmek için kullanılırken, while döngüsü, koşulun doğru olduğu sürece döngüyü tekrarlamak için kullanılır. İkisi arasındaki farklılıklar, hangi durumda hangi döngü yapısının kullanılacağına karar verilmesini sağlar.
+
+
+# do-while
+Java'da do-while döngüsü bir işlemi en az bir kez yapmak istediğimizde kullanılır. Döngüde belirtilen koşul yanlış olsa bile, işlem en az bir kez çalıştırılır.
+
+Do-while döngüsü, while döngüsünden farklıdır çünkü while döngüsünde koşul önce kontrol edilir ve işlem yalnızca koşul doğru olduğunda yapılır. Do-while döngüsünde ise, işlem önce yapılır ve koşul daha sonra kontrol edilir. Bu nedenle, do-while döngüsü en az bir kez çalıştırılacağından emin olmak için kullanılır.
+
+# do-while ve while arasinda ki farklar 
+
+Koşulun kontrol edilme zamanı:
+while döngüsünde, koşul başlangıçta kontrol edilir ve sadece koşul doğru olduğu sürece işlem(ler) tekrar edilir. do-while döngüsünde ise, işlem(ler) önce yapılır ve koşul daha sonra kontrol edilir. Bu nedenle, do-while döngüsü en az bir kez çalıştırılacağından emin olmak için kullanılır.
+
+Döngünün sınırlarının belirlenmesi:
+while döngüsünde, koşulun doğru olmaması durumunda döngü hiçbir zaman çalışmayacaktır. Bu nedenle, while döngüsü genellikle belirli bir sınırda çalışacak şekilde tasarlanır. do-while döngüsü ise, en az bir kez çalışacağından, belirli bir sınırda çalışması gerekmez.
+
+Döngünün içindeki işlemler:
+while döngüsü, işlemleri yalnızca koşul doğru olduğu sürece tekrar eder. Bu nedenle, döngü içindeki işlemler koşula bağlıdır. do-while döngüsünde ise, işlemler en az bir kez yapılacak şekilde tasarlanabilir.
+
+int i = 6;
+while (i < 5) { // 'i' 5 den kücük olmadigi calismaz.
+    System.out.println(i);
+    i++;
+}
+// Hiçbir şey yazdırmaz, çünkü koşul doğru değildir.
+
+do {
+    System.out.println(i);
+    i++;
+} while (i < 5);
+// i'nin değeri 6 olduğu için, bu kod önce bir kez çalıştırılır ve hiçbir şey yazdırmaz. Sonra i değeri 7 olduğu için, koşul doğru değildir ve döngü sona erer. Bu nedenle, bu kod sadece bir kez yazdırma işlemi yapar.

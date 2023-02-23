@@ -16,15 +16,15 @@ public class logicalOperators {
 
 
             //bir tanesi true ise hepsi true
-            System.out.println(3 == 6 && 2 < 8); 
+            System.out.println((3 == 6) && (9 < 8)); 
 
             // bir tanesi false ise hepsi false
-            System.out.println(5 == 9 || 2 < 3);
+            System.out.println((5 == 9) || (2 < 3));
 
-            // bwelirli bir sonucu tesine ceviriyor.
+            // belirli bir sonucu tesine ceviriyor.
             System.out.println(! false);
 
-            System.out.println(!((3 < 4 && "Firat" == "Firat") || 3.4 > 2.1));
+            System.out.println(!(3 < 4) && ("Firat" == "Firat") || (3.4 > 2.1));
 
 
     }

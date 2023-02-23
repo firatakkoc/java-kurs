@@ -28,7 +28,8 @@ public class findMaxNumber {
 
             maxNumber = thirdNumber;
         }
+        scanner.close();
 
         System.out.println("Max Number is: " + maxNumber);
-    }
+    }       
 }

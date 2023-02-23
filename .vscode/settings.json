@@ -1,4 +1,5 @@
 {
     "editor.showUnused": false,
-    "markdown.validate.unusedLinkDefinitions.enabled": "ignore"
+    "markdown.validate.unusedLinkDefinitions.enabled": "ignore",
+    "files.autoSave": "off"
 }

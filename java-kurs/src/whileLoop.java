@@ -32,6 +32,7 @@ public class whileLoop {
         }
 
         System.out.println("Factorial: " + factorial);
+        scanner.close();
     }   
 
 }

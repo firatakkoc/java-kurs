@@ -53,6 +53,42 @@
     Özetle, double ve float veri tipleri sayısal verileri temsil etmek için kullanılır, IEEE 754 standardını takip ederler ve matematiksel işlemlerde kullanılabilirler.
 */
 
+------------------------------------------------------------------------
+
+Java'da bir Class, bir nesne için temel tanımı sağlayan bir kod şablonudur. Bu şablon, bir nesnenin nasıl oluşturulacağı, özellikleri (alanlar) ve davranışları (metotlar) gibi özellikleri tanımlar. Class, bir nesnenin özelliklerini ve davranışlarını belirlemek için kullanılan değişkenlerin, metotların ve yapıların bir koleksiyonudur.
+
+Bir Object ise, Class'ın bir örneğidir. Class'tan türetilen her Object, sınıfın özelliklerine sahip olur ve bu özelliklerin değerleri, nesneye özgü özelliklere atanabilir. Bir Object, nesne adı verilen bir örnekleme süreciyle oluşturulur.
+
+public class Araba {
+    int hiz;
+    int yolcuSayisi;
+
+    public void hizlandir(int hizArtisi) {
+        hiz += hizArtisi;
+    }
+
+    public void dur() {
+        hiz = 0;
+    }
+}
+
+Bu Class, bir araba nesnesinin özelliklerini ve davranışlarını tanımlar. Araba'nın hızı ve yolcu sayısı gibi özellikleri vardır, ayrıca hızlandırma ve durdurma gibi davranışlar da tanımlanmıştır.
+
+Bu Class'tan bir Object yaratmak için, aşağıdaki gibi bir kod yazılabilir:
+
+Araba arabam = new Araba();
+arabam.hiz = 50;
+arabam.yolcuSayisi = 4;
+arabam.hizlandir(10);
+
+Bu kod, "Araba" Class'ından bir nesne yaratır ve bu nesnenin özelliklerini ve davranışlarını tanımlar. Yeni nesnenin hızı 50, yolcu sayısı 4'tür ve hızı 10 artırmak için hızlandırma metodu çağrılır.
+
+Class ve Object, Java'daki nesne yönelimli programlamanın temel kavramlarıdır. Class'lar, nesne tasarımını sağlarken, Object'ler, bu tasarımın örneklendirilmiş uygulamalarını sağlar.
+
+
+------------------------------------------------------------------------
+
+
 # for
 /* for döngüsü, belirli bir aralıkta veya bir koleksiyonun elemanlarında gezinmek için kullanılır. Genellikle, döngüde kaç kez tekrarlanacağı bilinen durumlarda kullanılır. for döngüsünde, döngü değişkeni tanımlanır ve koşul sağlandığı sürece arttırılır veya azaltılır. */
 
@@ -100,3 +136,35 @@ do {
     i++;
 } while (i < 5);
 // i'nin değeri 6 olduğu için, bu kod önce bir kez çalıştırılır ve hiçbir şey yazdırmaz. Sonra i değeri 7 olduğu için, koşul doğru değildir ve döngü sona erer. Bu nedenle, bu kod sadece bir kez yazdırma işlemi yapar.
+
+
+# break
+"break" anahtar kelimesi, döngü veya switch-case yapısının çalışmasını durdurmak için kullanılır.
+
+Döngü içerisinde kullanıldığında, "break" ifadesi, döngünün koşulunun true olduğu herhangi bir yerde kullanıldığında döngüyü anında sonlandırır ve program kontrolü döngüden çıkar.
+
+Switch-case yapısı içerisinde kullanıldığında, "break" ifadesi, bir "case" bloğundaki kodu tamamladıktan sonra, diğer "case" bloklarının işletilmesini engeller ve program kontrolünü switch-case yapısından çıkarır. Bu nedenle, her "case" bloğunun sonuna bir "break" ifadesi eklemek, switch-case yapısının doğru şekilde çalışmasını sağlar.
+
+# continue
+"continue" anahtar kelimesi, döngü yapıları içinde kullanıldığında döngünün devam etmesini sağlar ve o anda işlem yapılmamasını sağlar.
+
+Döngü içerisinde kullanıldığında, "continue" ifadesi, döngünün koşulunun true olduğu herhangi bir yerde kullanıldığında, o anda işlenen döngü adımının geri kalanını atlar ve döngünün bir sonraki adımına geçer. Yani, o anda işlenen döngü adımının içindeki kodların geri kalanı çalıştırılmaz, direkt olarak döngünün bir sonraki adımına geçilir.
+
+Örneğin, bir döngü içinde belirli bir koşulu sağlamayan durumlarda işlemlerin yapılmaması gerektiğinde "continue" anahtar kelimesi kullanılabilir. Bu sayede döngüdeki sadece belirli koşulu sağlayan durumlar işlenir ve diğer durumlar atlanarak döngü devam eder.
+
+
+# Metodlar (Fonksiyonlar)
+
+Java'da bir metot, bir programın belirli bir işlevini gerçekleştirmek için yazılan bir kod bloğudur. Metotlar, belirli bir isimle tanımlanır ve bu isimle çağrılırlar. Bir metot, parametreler olarak adlandırılan girdi değerlerini alabilir ve bir değer döndürebilir. Java'da metotlar, sınıfların içinde veya sınıfların dışında tanımlanabilirler.
+
+[erişim_belirleyici] [değer_dönüş_tipi] [metot_ismi]([parametreler]){
+  //Metot gövdesi
+  //Yapılacak işlemler
+  //Dönüş değeri (varsa)
+}
+
+
+Rest API:
+Frame Work - Spring Boot
+
+Class bir olgudur.

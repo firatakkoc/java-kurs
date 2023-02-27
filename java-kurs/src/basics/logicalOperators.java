@@ -25,7 +25,7 @@ public class logicalOperators {
             // belirli bir sonucu tesine ceviriyor.
         System.out.println(! false);
 
-        System.out.println(!(3 < 4) && "Akkoc" != "Firat" || (3.4 > 2.1));
+        System.out.println( "Akkoc" != "Firat");
 
 
     }
